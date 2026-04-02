@@ -8,4 +8,4 @@ final_tip = bill_total * (tip_percentage / 100)
 split_counter = float(input("How many people to split the bill?:\n "))
 final_total = round((bill_total + final_tip) / split_counter, 2)
 
-print(f"Your final total per person is {final_total}")
+print(f"Your final total per person is {final_total}") #This prints the total
